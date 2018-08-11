@@ -1,0 +1,12 @@
+<h1>Here's Some Items Bitch</h1>
+<%= link_to "Create New Item", new_portfolio_path %>
+
+<% @portfolio_items.each do |portfolio_item| %>
+<p><%= link_to portfolio_item.title, portfolio_show_path(portfolio_item) %></p>
+<em><%= portfolio_item.subtitle %></em>
+<p><%= portfolio_item.body %></p>
+<%= image_tag portfolio_item.thumb_image unless portfolio_item.thumb_image.nil? %>
+<%= link_to "Edit", edit_portfolio_path(portfolio_item) %>
+<%= link_to 'Delete portfolio item', portfolio_path(portfolio_item), method: :delete, data: { confirm: 'Like ...fo real?' } %>
+
+<% end %>
