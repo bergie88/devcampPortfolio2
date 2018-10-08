@@ -22,10 +22,18 @@ gem 'coffee-rails', '~> 4.2'
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.5'
+
 #Friendly ID Gem... Makes Slug Links
 gem 'friendly_id', '~> 5.2.0'
 
+# LEMME IN!
 gem 'devise', '~> 4.5'
+
+# MAKE IT PRETTY!
+gem 'bootstrap', '~> 4.1.3'
+
+#SCRRRRRIPTS
+gem 'jquery-rails'
 
 
 # Use Redis adapter to run Action Cable in production
