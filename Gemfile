@@ -68,3 +68,5 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+gem 'bergman_view_tool', git: 'https://github.com/bergie88/bergman_view_tool'
