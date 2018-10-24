@@ -72,3 +72,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'bergman_view_tool', git: 'https://github.com/bergie88/bergman_view_tool'
 
 gem 'petergate', '~> 1.9', '>= 1.9.1'
+
+gem "font-awesome-rails"
