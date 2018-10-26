@@ -217,7 +217,7 @@ DEPENDENCIES
   byebug
   coffee-rails (~> 4.2)
   devise (~> 4.5)
-  font-awesome-rails
+  font-awesome-rails (~> 4.7, >= 4.7.0.4)
   friendly_id (~> 5.2.0)
   jbuilder (~> 2.5)
   jquery-rails
