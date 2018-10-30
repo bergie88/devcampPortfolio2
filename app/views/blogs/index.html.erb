@@ -3,13 +3,12 @@
     <p class="Body"><%= link_to 'New Blog', new_blog_path if logged_in?(:site_admin) %></p>
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
+          <%= paginate @blogs %>
           <%= render @blogs %>
+          <%= paginate @blogs %>
         </div>
         <hr>
 
-      </div>
-        <div class="clearfix">
-          <a class="btn btn-primary float-right" href="#">Older Posts &rarr;</a>
-        </div>
+      
     </div>
     <hr>

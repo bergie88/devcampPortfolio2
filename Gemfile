@@ -74,3 +74,5 @@ gem 'bergman_view_tool', git: 'https://github.com/bergie88/bergman_view_tool'
 gem 'petergate', '~> 1.9', '>= 1.9.1'
 
 gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.4'
+
+gem 'kaminari', '~> 0.16.3'
