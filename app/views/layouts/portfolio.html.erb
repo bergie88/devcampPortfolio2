@@ -20,7 +20,7 @@
     <!-- End of Nav -->
 
     <!-- Start of Masthead -->
-    <%= render "shared/portfolio_header" %>
+    <%= render "shared/portfolio_header" unless logged_in?(:site_admin) %>
     <!-- End of Masthead -->
 
     <!-- Start of Items -->
