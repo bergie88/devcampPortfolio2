@@ -8,21 +8,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <%= link_to "Home", root_path %>
-            </li>
-            <li class="nav-item">
-              <%= link_to "About", about_me_path %>    
-            </li>
-            <li class="nav-item">
-              <%= link_to "Contact", contact_path %>
-            </li>
-            <li class="nav-item">
-              <%= link_to "Blog", blogs_path %>
-            </li>
-            <li class="nav-item">
-              <%= link_to "Portfolio", portfolios_path %>
-            </li>
+            <%= nav_helper '', 'li class="nav-item"' %>
             <li class="nav-item">
             <%= login_helper %>
             </li>
